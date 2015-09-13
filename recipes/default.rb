@@ -19,6 +19,7 @@
 
 if platform_family?('windows')
   include_recipe 'sbp_tcp_offloading::windows'
+  include_recipe 'sbp_tcp_offloading::citrix'
 #elsif platform_family?('rhel')          => Example of the correct way to add this functionality for other platforms
 # include_recipe 'sbp_tcp_offloading::rhel'  => Example of the correct way to add this functionality for other platforms
 end
